@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background: white;
+  height: 63px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.90px 1.90px 2.0px;
+
+}
+
+.rightbox {
+  display: flex;
+  margin: 12px;
+
+}
+
+.left img {
+  width: 33px;
+  height: 30px;
+}
+
+.container {
+  padding: 0 10vw;
+}
+
+.containerHeader {
+  padding: 0 10vw;
+}
+
+nav {
+  font-size: 12px;
+  padding-top: 12px;
+
+}
+
+nav ul li {
+  list-style: none;
+  padding: 0 12px;
+}
+
+.section1 {
+  background-color: #f2f2f2;
+}
+
+.search {
+  width: 26vw;
+  padding: 7px 17px;
+  border: 0.5px solid grey;
+  background: #f7f8fd;
+  border-radius: 3px;
+}
+
+.homeimg {
+  width: 80vw;
+  margin: 12px 0;
+}
+
+.dragimg {
+  width: 80vw;
+  padding: 0px 110px;
+
+}
+
+.itemimg {
+  width: 9vw;
+  margin: 8px 12px;
+}
+
+footer {
+  margin: 12px 0;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.tall {
+  min-height: 40vh;
+}
+
+@media(max-width:650px) {
+  .search {
+    width: 72vw;
+  }
+}
+
+@media (max-width: 1250px) {
+  .search {
+    width: 72vw;
+    padding: 7px 17px;
+    border: 0.5px solid grey;
+    background: #f7f8fd;
+    border-radius: 3px;
+  }
+
+  .containerHeader {
+    padding: 0 2vw;
+  }
+
+  nav ul li {
+    list-style: none;
+    padding: 0 4px;
+    font-size: 10px;
+  }
+
+  header {
+
+    height: 122px;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .right {
+    flex-direction: column;
+
+  }
+
+  .rightbox {
+    display: flex;
+    margin: 12px;
+
+  }
+}
